@@ -28,11 +28,11 @@ r2=20*log10(y1);
 subplot(5,2,1);
 plot(r);
 grid
-title('time domain of rectangular window 101906116');
+title('time domain of rectangular window ');
 subplot(5,2,2);
 plot(r2);
 grid
-title('frequency domain of rectangular window 101906116');
+title('frequency domain of rectangular window ');
 
 %hanning window
 han1=fftshift(fft(han,1000));
@@ -41,11 +41,11 @@ han2=20*log10(w1);
 subplot(5,2,3);
 plot(han)
 grid
-title('time domain of hanning window 101906116');
+title('time domain of hanning window ');
 subplot(5,2,4);
 plot(han2);
 grid
-title('frequency domain of hannning window 101906116');
+title('frequency domain of hannning window');
 
 %hamming window
 ham1=fftshift(fft(ham,1000));
@@ -54,11 +54,11 @@ ham2=20*log10(a1);
 subplot(5,2,5);
 plot(ham);
 grid
-title('time domain of hamming window 101906116');
+title('time domain of hamming window');
 subplot(5,2,6);
 plot(ham2);
 grid
-title('frequency domain of hamming window 101906116');
+title('frequency domain of hamming window ');
 
 %blackman window
 blk1=fftshift(fft(blk,1000));
@@ -67,11 +67,11 @@ blk2=20*log10(b1);
 subplot(5,2,7);
 plot(blk);
 grid
-title('time domain of blackman window 101906116');
+title('time domain of blackman window');
 subplot(5,2,8);
 plot(blk2);
 grid
-title('frequency domain of blackman window 101906116');
+title('frequency domain of blackman window');
 
 %bartlet window
 brt1=fftshift(fft(brt,1000));
@@ -80,8 +80,8 @@ brt2=20*log10(c1);
 subplot(5,2,9);
 plot(brt);
 grid
-title('time domain of bartlet window 101906116');
+title('time domain of bartlet window');
 subplot(5,2,10);
 plot(brt2);
 grid
-title('frequency domain of bartlet window 101906116');
+title('frequency domain of bartlet window');
